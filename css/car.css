@@ -1,0 +1,390 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.head1{
+    margin-bottom: -81px;
+    margin-left: 47px;
+    font-size: 24px;
+    margin-top: 30px;
+    font-family: Open Sans, sans-serif;
+}
+#span_3,#span_4:nth-of-type(2) {
+    left: 98%;
+    text-align: right;
+}
+#span_3,#span_4 {
+    position: absolute;
+    top: 34%;
+    font-size: 40px;
+    font-weight: 1000;
+    cursor: pointer;
+    left: .5%;
+    z-index: 1;
+    /* background-color: red; */
+}
+
+  
+  #div1{
+     /* border: 2px solid red; */
+     width:100%;
+     margin-top:7%;
+     display: flex;
+     height:320px;
+     box-sizing: border-box;
+     box-shadow: 1px 0px 1px black;
+  
+  }
+  
+  
+  /* mid part css strt*/
+  .main1 {
+    width: 100%;
+    /* height: 428px; */
+    /* margin: 200px auto; */
+    /* overflow: hidden; */
+    overflow: visible;
+    position: relative;
+    /* background: #d4e2fa; */
+    height: 400px;
+  }
+  
+  
+  
+  
+  
+  .section1 {
+    width: 98%;
+    height: 253px;
+   
+    margin: -10px auto;
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+    border: none;
+    position: relative;
+    top: -6px;
+    overflow: visible;
+    
+    
+  }
+  
+  .section1::-webkit-scrollbar {
+    visibility: hidden;
+  }
+  
+  
+  
+  .carousal_1{
+    width:95%;
+    height: 408px;
+    /* background-color: #f3f2ee; */
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin:auto;
+    margin-bottom: 100px;
+    margin-top:80px ;
+   
+  }
+  
+  
+  .div1_offer1{
+      margin-bottom: 31px;;
+    display: flex;
+    text-align: center;
+    height: 60px;
+    margin-left: 8%;
+    /* background-color:orange; */
+    font-weight: bold;
+    font-family: Open Sans, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    justify-content:space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .a1 img{
+    width: 100%;
+    height: 100%;
+   
+   
+  }
+  .a2{
+    /* left:0; */
+    margin-right: 200px;
+   color: black;
+   font-family: Open Sans, sans-serif;
+     font-size: 12px;
+     font-weight: 50;
+     text-align: left;
+     /* position: relative; */
+  }
+  .div3 .a3{
+    margin-top: 10px;
+     width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .a3 ,.a6{
+   margin-right: 113px;
+   /* color: black; */
+   font-family: Open Sans, sans-serif;
+     /* font-size: 12px; */
+     /* font-weight: 50; */
+     font-size: 12px;
+     /* position: relative; */
+  }
+  
+  .a4{
+   margin-right: 113px;
+   color: black;
+   font-family: Open Sans, sans-serif;
+     /* font-size: 12px; */
+     font-weight: 50;
+     /* position: relative; */
+     font-size: 12px;
+  }
+  .a5{
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+   }
+  .a10{
+      color: black;
+      margin-right: 118px;
+      font-size: 11px;
+      font-family: Open Sans, sans-serif;
+    }
+  
+  .div3 {
+  display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    height: 213px;
+    position: relative;
+   
+    text-align: center;
+   
+    font-weight: bold;
+    margin: 11px 11px;
+    /* color: white; */
+    background: white;
+    transition: 0.5s;
+    /* border-radius: 7px; */
+    cursor: pointer;
+    /* border: 2px solid rgba(0, 0, 0, 0.2); */
+    /* border: 2px solid rgba(0, 0, 0, 0.2); */
+    min-width: 178px;
+    height: 400px;
+    
+    overflow: visible;
+    transform:scaleY(1.2);
+    /* margin-bottom: 200px; */
+  }
+  
+  .a7{
+    display: none;
+    color: black;
+    text-align: center;
+  }
+  .div3:hover .a7{
+  display: block;
+  color: black;
+  }
+  /* ---------------for first div----------------- */
+  
+  .div3_inner_box{
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    color: black;
+  }
+  .div3_offer{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    /* background-color: blue; */
+    justify-content: space-between;
+  }
+  .div3_offer1{
+    display: flex;
+    text-align: center;
+    height: 60px;
+   margin-left:2%;
+    /* background-color:orange; */
+    font-weight: bold;
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: black;
+    justify-content:space-between;
+    align-items: center;
+  }
+  
+  
+  .div3 .a1{
+    /* background-color:green; */
+     width: 100%;
+     height: 210px;
+    
+  }
+  .a1 img{
+    width: 100%;
+    height: 100%;
+   
+   
+  }
+  .a2{
+    /* left:0; */
+    margin-right: 200px;
+   color: black;
+   font-family: Open Sans, sans-serif;
+     font-size: 12px;
+     font-weight: 50;
+     /* position: relative; */
+  }
+  .div3 .a3{
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .a3 ,.a6{
+   margin-right: 113px;
+   /* color: black; */
+   font-family: Open Sans, sans-serif;
+     /* font-size: 12px; */
+     /* font-weight: 50; */
+     font-size: 12px;
+     /* position: relative; */
+  }
+  .a4{
+   margin-right: 113px;
+   color: black;
+   font-family: Open Sans, sans-serif;
+     /* font-size: 12px; */
+     font-weight: 50;
+     /* position: relative; */
+     font-size: 12px;
+  }
+  .a5{
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+  }
+   /* mid style 4 strt */
+  
+  
+  
+  #span_7,#span_8 ,#span_1,#span_2 ,#span_3,#span_4 ,#span_5,#span_6 {
+    cursor: pointer;
+     float:left;
+    z-index: 1;
+    border-radius: 50%;
+     padding:2px 7px;
+    border: 1px solid black;
+    transition: .5s;
+    margin:5px;
+    font-size:20px;
+  }
+  #span_7:hover,#span_8:hover,#span_1:hover,#span_2:hover,#span_3:hover,#span_4:hover,#span_5:hover,#span_6:hover{
+    background-color: rgb(194, 189, 189);
+  }
+  
+  
+  
+
+  .a2{
+    /* left:0; */
+   
+   margin:2%;
+   color:black;
+  
+  
+     font-size: 12px;
+     width:100%;
+    
+     /* position: relative; */
+  }
+   .a3{
+    
+     width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    text-align:left;
+    margin-top:0;
+   color: grey;
+   font-family: Open Sans, sans-serif;
+     /* font-size: 12px; */
+     /* font-weight: 400; */
+     /* font-size: 14px; */
+     margin-left:2%;
+     
+  }
+  .a6 {
+    text-align: justify;
+   opacity: .7;
+    width:95%;
+    margin:2%;
+    
+  }
+  
+  .a4{
+    text-align: left;
+  font-weight: 100;
+   /* color: rgb(110, 108, 108); */
+  
+   margin-left:2%;
+     /* font-size: 12px; */
+    
+     /* position: relative; */
+     font-size: 12px;
+     margin-bottom:0;
+  }
+  .a5{
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .carousal_3 .a3,.carousal_1 .a3{
+    margin-top:0;
+    
+  }
+  
+/* second carousal */
+
+  
+
+
+  .carousal_3 .a3,.carousal_1 .a3{
+    margin-top:0;
+    
+  }
+  
+  .carousal_4 h2,.carousal_3 h2,.carousal_2 h2,.carousal_1 h2{
+    font-weight: 500;
+    color: black;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+  }
+  #span_7,#span_8 ,#span_1,#span_2 ,#span_3,#span_4 ,#span_5,#span_6 {
+    cursor: pointer;
+     float:left;
+    z-index: 1;
+    border-radius: 50%;
+     padding:2px 7px;
+    border: 1px solid black;
+    transition: .5s;
+    margin:5px;
+    font-size:20px;
+  }
+  #span_7:hover,#span_8:hover,#span_1:hover,#span_2:hover,#span_3:hover,#span_4:hover,#span_5:hover,#span_6:hover{
+    background-color: rgb(194, 189, 189);
+  }
+  #span_7,#span_8{
+    margin-top:10px;
+   
+  }

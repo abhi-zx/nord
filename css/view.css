@@ -1,0 +1,27 @@
+.vcontainer{
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 450px;
+    margin-left: 40px;
+}
+.box2 p {
+    margin-bottom: 20px;
+}
+.box1{
+    width:450px;
+    height: 450px;
+}
+.box1 img{
+    width:100%;
+    height:100%;
+}
+.box2 button{
+background-color:black;
+color:white;
+height: 43px;
+}

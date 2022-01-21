@@ -1,0 +1,173 @@
+
+var products2 = [
+    {
+        pid: 5,
+        price_was: 1000,
+        img_src:
+            "https://cdn-images.farfetch-contents.com/17/76/54/10/17765410_37489437_600.jpg",
+        name: "MEN'S PALM ANGLES TRACK JACKET",
+        brand: "PALM ANGLE",
+        category: "JACKET",
+        Symbol: "₹",
+        price_now: 745,
+        strikedoffprice: 2599,
+    },
+    {
+        pid: 5,
+        price_was: 1000,
+        img_src:
+            "https://cdn-images.farfetch-contents.com/17/18/51/67/17185167_37027698_600.jpg",
+        name: "MEN'S HERON PRESTON T-SHIRT ",
+        brand: "HERON PRESTON",
+        category: "T-SHIRT",
+        price_now: 445,
+        strikedoffprice: 999,
+        Symbol: "₹",
+    },
+    {
+        pid: 5,
+        price_was: 1000,
+        img_src:
+            "https://cdn-images.farfetch-contents.com/17/45/47/28/17454728_37431510_600.jpg",
+        name: " Wales Bonner Power geometric-print trousers",
+        brand: "WALES BONNER",
+        category: "PANT",
+        price_now: 801,
+        strikedoffprice: 1099,
+        Symbol: "₹",
+    },
+    {
+        pid: 5,
+        price_was: 1000,
+        img_src:
+            "https://cdn-images.farfetch-contents.com/17/35/10/06/17351006_37528125_600.jpg",
+        name: "Alexander McQueen intarsia-pattern cardigan",
+        brand: "WALES BONNER",
+        category: "SHIRT",
+        price_now: 399,
+        strikedoffprice: 799,
+        Symbol: "₹",
+    },
+    {
+        pid: 5,
+        price_was: 3000,
+        img_src:
+            "https://cdn-images.farfetch-contents.com/17/45/63/05/17456305_36457255_600.jpg",
+        name: "JW Anderson x Pol Anglada appliqué-logo shirt ",
+        brand: "PALM ANGLE",
+        price_now: 1620,
+        strikedoffprice: 3599,
+        category: "SHIRT",
+        Symbol: "₹",
+    },
+    {
+        pid: 5,
+        price_was: 1000,
+        img_src:
+            "https://cdn-images.farfetch-contents.com/17/57/76/03/17577603_37061209_600.jpg",
+        name: " Marni herringbone-effect jacket ",
+        brand: "WALES BONNER",
+        price_now: 1440,
+        strikedoffprice: 3199,
+        category: "JACKET",
+        Symbol: "₹",
+    },
+    {
+        pid: 5,
+        price_was: 1000,
+        img_src:
+            "https://cdn-images.farfetch-contents.com/17/53/23/75/17532375_37307240_600.jpg ",
+        name: " MEN'S Gervon check-print overshirt ",
+        brand: "WALES BONNER",
+        price_now: 1999,
+        strikedoffprice: 3199,
+        category: "SHIRT",
+        Symbol: "₹",
+    },
+    {
+        pid: 5,
+        price_was: 1000,
+        img_src:
+            "https://content.shop4reebok.com/static/Product-GQ8758/reebok_GQ8758_1.jpg.plp ",
+        name: "MEN'S REEBOK TRAINING  POLO T-SHIRTS TEE  ",
+        brand: "REEBOK",
+        price_now: 769,
+        strikedoffprice: 1099,
+        category: "T-SHIRT",
+        Symbol: "₹",
+    },
+    {
+        pid: 5,
+        price_was: 1000,
+        img_src:
+            "https://cdn-images.farfetch-contents.com/17/81/47/01/17814701_f6398c5f-26a6-4403-aa0b-814f882e3bfa_600.jpg",
+        name: "Medusa plaque slim-fit jeans ",
+        brand: "PALM ANGLE",
+        price_now: 1299,
+        strikedoffprice: 1440,
+        category: "PANT",
+        Symbol: "₹",
+    },
+    {
+        pid: 5,
+        price_was: 1000,
+        img_src:
+            "https://cdn-images.farfetch-contents.com/16/96/82/31/16968231_33877299_600.jpg ",
+        name: "Marni cropped tailored trousers",
+        brand: "HERON PRESTON",
+        price_now: 699,
+        strikedoffprice: 999,
+        category: "PANT",
+        Symbol: "₹",
+    },
+    {
+        pid: 5,
+        price_was: 1000,
+        img_src:
+            "https://cdn-images.farfetch-contents.com/16/04/66/26/16046626_30351839_600.jpg ",
+        name: "Off-White Arrows intarsia-knit jumper",
+        brand: "HERON PRESTON",
+        category: "PANT",
+        price_now: 1620,
+        strikedoffprice: 3599,
+        Symbol: "₹",
+    },
+    {
+        pid: 5,
+        price_was: 1000,
+        img_src:
+            "https://cdn-images.farfetch-contents.com/17/69/35/47/17693547_37152483_600.jpg ",
+        name: " Balenciaga Phantom low-top sneakers",
+        brand: "BALENCIAGA",
+        category: "SHOES",
+        price_now: 1620,
+        strikedoffprice: 3599,
+        Symbol: "₹",
+    },
+    {
+        pid: 5,
+        price_was: 1000,
+        img_src:
+            " https://cdn-images.farfetch-contents.com/16/63/80/29/16638029_32559388_600.jpg",
+        name: "Brunello Cucinelli lace-up suede boots ",
+        brand: "BALENCIAGA",
+        category: "SHOES",
+        price_now: 599,
+        strikedoffprice: 999,
+        Symbol: "₹",
+    },
+    {
+        pid: 5,
+        price_was: 1000,
+        img_src:
+            "https://content.shop4reebok.com/static/Product-FW0318/reebok_FW0318_1.jpg.plp ",
+        name: " MEN'S REEBOK RUNNING RUNNER SHOES",
+        brand: "REEBOK",
+        category: "SHOES",
+        price_now: 1575,
+        strikedoffprice: 3499,
+        Symbol: "₹",
+    },
+];
+
+

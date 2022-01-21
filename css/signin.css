@@ -1,0 +1,34 @@
+.mid{
+    display: flex;
+margin-left: 441px;
+width: 281px;
+height: 300px;
+/* background-color: red; */
+flex-direction: column;
+margin-top: 66px;
+}
+.mid p{
+    font-family: Open Sans, sans-serif;
+}
+.mid  input{
+    height:35px;
+}
+.mid button{
+    height:35px;
+    color:white;
+    background-color:black;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+.a3{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.a1{
+    font-size:25px
+}
+.a4{
+    color:grey;
+    font-size:12px;
+}
